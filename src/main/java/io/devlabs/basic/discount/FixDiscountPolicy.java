@@ -5,7 +5,7 @@ import io.devlabs.basic.member.Member;
 
 public class FixDiscountPolicy implements DiscountPolicy {
 
-    private int dicountFixAmount = 1000; // 1000원 할인
+    private int discountFixAmount = 1000; // 1000원 할인
 
     @Override
     public int discount(Member member, int price) {
